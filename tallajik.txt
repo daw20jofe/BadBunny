@@ -1,0 +1,15 @@
+<form name="formulario" method="post" action="/send.php">
+  <p>
+    Tamaina:
+    <input type="radio" name="Tamaina" value="H" /> XS
+    <input type="radio" name="Tamaina" value="M" /> S
+    <input type="radio" name="Tamaina" value="M" /> M 
+    <input type="radio" name="Tamaina" value="M" /> L
+    <input type="radio" name="Tamaina" value="M" /> XL
+  </p>
+
+ 
+
+  <input type="checkbox" name="empresa"  />
+  Opari moduan
+</form>

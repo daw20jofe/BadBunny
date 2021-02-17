@@ -1,0 +1,147 @@
+* { padding: 0; margin: 0; }
+html {
+	font-family:Helvetica;
+	background-image: url("../img/fondo.gif");						
+	-webkit-background-size: cover;					
+	-moz-background-size: cover;					
+	-o-background-size: cover;					
+	background-size: cover;
+	font-size: 1.5vw;
+}
+						body { 	
+							 width: 60%; 
+                             margin: auto;
+							 opacity: 0.8;
+       						 background-color: transparent;
+							font-size: 1.5vw;
+						}	
+						
+						header {
+							 border: 1px dotted black;
+							 margin: 1.968503937007874%;							 
+							 width: 91.86351706036745%;
+							 padding: 1.968503937007874%; 
+							 background-color: rgba(166, 184, 178, 0.555);	
+							 text-align: center;			 
+						}
+						
+						nav {
+							border: 1px dotted black;
+							margin: 1.968503937007874%;
+							padding: 1.968503937007874%;
+							display: grid;
+							grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+							row-gap: 15px;
+							column-gap: 15px;
+							background-color: white;
+							text-align: center;
+						}
+							
+						#hasiera{
+							grid-row: 1/2;
+							grid-column: 1/span 3;
+							border: 1px outset rgb(0, 0, 0);        
+							margin-left: 6%;
+							margin-right: 6%;
+							margin-bottom: -6%;	
+						}
+					
+						#katalogoa{
+							grid-row: 1/2;
+							grid-column: 4/span 3;
+							border: 1px outset rgb(0, 0, 0);
+							margin-left: 6%;
+							margin-right: 6%;
+							margin-bottom: -6%;
+						}
+					
+						#saskia{
+							grid-row: 1/2;
+							grid-column: 7/span 3;
+							border: 1px outset rgb(0, 0, 0);
+							margin-left: 6%;
+							margin-right: 6%;
+							margin-bottom: -6%;
+						}
+					
+						#kontaktua{
+							grid-row: 1/2;
+							grid-column: 10/span 3;
+							border: 1px outset rgb(0, 0, 0);
+							margin-left: 6%;
+							margin-right: 6%;
+							margin-bottom: -6%;
+						}
+						
+						nav img{
+							width: 70%;							
+						}
+
+						nav a{
+							font-size: 100% ;
+						}
+						 
+						 main {
+							 border: 1px dotted black;
+							 margin-bottom: 1.968503937007874%;
+							 margin-left: 1.968503937007874%;
+							 margin-right: 0%; 
+							 padding: 1.968503937007874%; 
+							 width: 91.7%; /*  732 / 762 */
+							 display: flex;
+                             justify-content: space-between;
+							 background-color: white;
+						 }
+							 
+						 aside input{
+							 margin-top: 1%;
+						 }
+							 
+						 
+						 footer {
+							border: 1px dotted black;
+							 padding: 1.968503937007874%;
+							 margin: 1.968503937007874%; 
+							 clear: left; 
+							 background-color: white;
+						 }
+		
+						section{
+                            
+                            padding: 2.04918032786885%;
+                            width: 54.6448087431694%;
+							background-color: white;
+                        }
+
+						
+					
+						section img{
+							width: 100%;
+						}
+
+						 aside {
+							 border: 1px dotted black;
+							 width: 34.56284153005464%; /* 253 / 732 */ 
+							 margin-left: 1.968503937007874%;
+							 padding: 2.04918032786885%;
+							 background-color: white;
+							 color: rgb(0, 0, 0);
+      						 text-decoration: none;
+						 }
+
+						 aside a{
+							color: rgb(0, 0, 0);
+							text-decoration: none;
+						 }
+
+						#prezioa {
+							text-decoration: line-through;
+							text-decoration-color: red;
+						}
+
+						aside li{
+							margin-left: 10%;
+							margin-top: 3%;
+						}
+					}
+						 
